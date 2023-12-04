@@ -1,0 +1,15 @@
+appName: frontend
+appVersion: 2.0.0
+replicas: 2
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 80
+initContainers:
+  enabled: false
+
+job:
+  enabled: false
+
+
